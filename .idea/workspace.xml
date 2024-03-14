@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9239fe22-ef4f-4b8c-979f-4ddcb6096300" name="Changes" comment="first commit:&#10;단일객체송신, 다중객체송신">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/study/jsonpractice/StudentController$StudentDto.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/study/jsonpractice/StudentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/study/jsonpractice/StudentController.class" afterDir="false" />
+    <list default="true" id="9239fe22-ef4f-4b8c-979f-4ddcb6096300" name="Changes" comment="단일객체수신">
       <change beforePath="$PROJECT_DIR$/src/main/java/study/jsonpractice/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/study/jsonpractice/StudentController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -83,7 +79,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1710381479313</updated>
-      <workItem from="1710381480508" duration="8077000" />
+      <workItem from="1710381480508" duration="8596000" />
     </task>
     <task id="LOCAL-00001" summary="first commit:&#10;단일객체송신, 다중객체송신">
       <option name="closed" value="true" />
@@ -93,7 +89,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710398529957</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="단일객체수신">
+      <option name="closed" value="true" />
+      <created>1710399865902</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1710399865902</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -101,6 +105,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit:&#10;단일객체송신, 다중객체송신" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit:&#10;단일객체송신, 다중객체송신" />
+    <MESSAGE value="단일객체수신" />
+    <option name="LAST_COMMIT_MESSAGE" value="단일객체수신" />
   </component>
 </project>

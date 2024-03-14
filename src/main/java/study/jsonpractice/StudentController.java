@@ -46,5 +46,17 @@ public class StudentController {
         return result;
     }
 
+    @PostMapping("/students")
+    public String postStudents(@RequestBody List<Student> studentList) {
+        String result = "[학생 정보]\n";
+        int index = 1;
+        for (Student student : studentList) {
+            result += String.format("%d번 학생\n", index++);
+            result += String.format("학생 이름 : %s\n나이 : %d\n수업 : %s\n\n",
+                    student.getName(), student.getAge(),student.getClasses());
 
+        }
+
+        return result;
+    }
 }
