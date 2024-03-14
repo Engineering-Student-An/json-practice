@@ -15,8 +15,8 @@ public class StudentController {
     @GetMapping("/student")
     public StudentDto getOneStudent() {
 
-        Student student = new Student("홍길동", "password1234",23,
-                new ArrayList<>(Arrays.asList("수업1","수업2","수업3")));
+        Student student = new Student("홍길동", "password1234", 23,
+                new ArrayList<>(Arrays.asList("수업1", "수업2", "수업3")));
         return new StudentDto(student);
     }
 
