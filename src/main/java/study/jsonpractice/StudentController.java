@@ -41,6 +41,10 @@ public class StudentController {
 
     @PostMapping("/student")
     public String postStudent(@RequestBody Student student) {
-
+        String result = String.format("[학생 정보]\n" + "학생 이름 : %s\n나이 : %d\n수업 : %s",
+                student.getName(), student.getAge(),student.getClasses());
+        return result;
     }
+
+
 }

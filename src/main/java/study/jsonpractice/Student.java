@@ -16,5 +16,8 @@ public class Student {
     public int age;
 
     public ArrayList<String> classes = new ArrayList<>();
+
+    public Student() {
+    }
 }
 
