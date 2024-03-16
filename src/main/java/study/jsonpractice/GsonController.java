@@ -24,9 +24,27 @@ public class GsonController {
         return new StudentDto(student);
     }
 
-    @PostMapping("/student-to-string-expose")
+    @PostMapping("/student-to-string")
     public String studentToString(@RequestBody Student student) {
+        Gson gson = new Gson();
+        String jsonString = gson.toJson(student);
+
+        return jsonString;
+    }
+
+    @PostMapping("/student-to-string-expose")
+    public String studentToString2(@RequestBody Student student) {
         Gson gson = new GsonBuilder().excludeFieldsWithoutExposeAnnotation().create();
+        String jsonString = gson.toJson(student);
+
+        return jsonString;
+    }
+
+    @PostMapping("/student-to-string-exclusion-strategy")
+    public String studentToString3(@RequestBody Student student) {
+        Gson gson = new GsonBuilder()
+                .setExclusionStrategies(new PasswordExclusionStrategy())
+                .create();
         String jsonString = gson.toJson(student);
 
         return jsonString;
