@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9239fe22-ef4f-4b8c-979f-4ddcb6096300" name="Changes" comment="다중객체수신">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="9239fe22-ef4f-4b8c-979f-4ddcb6096300" name="Changes" comment="JSONParser">
+      <change beforePath="$PROJECT_DIR$/.gradle/8.6/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.6/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.6/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.6/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/8.6/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/8.6/checksums/sha1-checksums.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/study/jsonpractice/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/study/jsonpractice/StudentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/study/jsonpractice/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/study/jsonpractice/Student.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +86,7 @@
       <updated>1710381479313</updated>
       <workItem from="1710381480508" duration="11195000" />
       <workItem from="1710469956536" duration="330000" />
-      <workItem from="1710476734645" duration="3192000" />
+      <workItem from="1710476734645" duration="6163000" />
     </task>
     <task id="LOCAL-00001" summary="first commit:&#10;단일객체송신, 다중객체송신">
       <option name="closed" value="true" />
@@ -119,7 +120,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710410465812</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="JSONParser">
+      <option name="closed" value="true" />
+      <created>1710471058041</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1710471058041</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -129,6 +138,7 @@
     <MESSAGE value="first commit:&#10;단일객체송신, 다중객체송신" />
     <MESSAGE value="단일객체수신" />
     <MESSAGE value="다중객체수신" />
-    <option name="LAST_COMMIT_MESSAGE" value="다중객체수신" />
+    <MESSAGE value="JSONParser" />
+    <option name="LAST_COMMIT_MESSAGE" value="JSONParser" />
   </component>
 </project>
