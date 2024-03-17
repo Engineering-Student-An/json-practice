@@ -48,6 +48,7 @@ public class ObjectMapperController {
         SimpleFilterProvider filter = new SimpleFilterProvider().addFilter("studentFilter",
                 SimpleBeanPropertyFilter.serializeAllExcept("password"));
 
+
         objectMapper.setFilterProvider(filter);
 
         String result = objectMapper.writeValueAsString(student);
